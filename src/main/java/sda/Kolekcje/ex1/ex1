@@ -1,0 +1,7 @@
+Zadanie 1
+Zaimplementuj klasę SDAArrayList<T> , która będzie implementować logikę
+ArrayList<T> . W tym celu zaimplementuj obsługę metod:
+add
+remove
+get
+display

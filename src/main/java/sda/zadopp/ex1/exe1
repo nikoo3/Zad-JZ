@@ -1,0 +1,30 @@
+Klasa Point2D
+
+Zaimplementuj klasę Point2D.
+Klasa powinna zawierać:
+
+dwa pola typu foat: x , y
+konstruktor bezparametrowy ustawiający wartość pól x i y na 0
+konstruktor z dwoma parametrami: float x , float y
+
+metody typu getter odpowiedzialne za zwracanie wartości zmiennej: x , y
+metodę getXY zwracającą współrzędne x i y w postaci tablicy dwuelementowej
+metody typu setter odpowiedzialne za ustawianie wartości pól x , y
+metodę setXY ustawiającą współrzędne x i y
+metoda toString powinna zwracać łańcuch tekstowy o następującym
+formacie: (x, y) ;
+
+
+Klasa Point3D
+Na podstawie klasy Point2D zaimplementuj klasę Point3D. Klasa ta powinna
+rozszerzać klasę Point2D oraz dodawać następującą implementację:
+pole prywatne typu oat: z
+konstruktor przyjmujący wartości dla pól: x , y , z
+metodę typu getter odpowiedzialną za zwracanie wartości zmiennej z
+metodę getXYZ zwracającą współrzędne x , y , z w postaci tablicy
+trzyelementowej
+metodę typu setter odpowiedzialną za ustawianie zmiennej z
+metodę setXYZ ustawiającą wartości dla zmiennych x , y , z
+metoda toString powinna zwracać łańcuch tekstowy o następującym
+formacie: (x, y, z) ;
+Zaprezentuj zaimplementowane powyżej rozwiązanie na przykładzie.

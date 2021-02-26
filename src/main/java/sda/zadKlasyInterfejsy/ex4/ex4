@@ -1,0 +1,29 @@
+Zadanie 4
+Interfejs Validator
+Zaimplementuj interfejs Validator, który będzie zawierać w swojej deklaracji
+metodę boolean validate(T input) .
+Klasa User
+Zaimplementuj klasę User, która będzie zawierać:
+* pola: imię, nazwisko, wiek,
+login, hasło * konstruktor bezparametrowy
+* metody typu setter i getter
+*
+metody typu setter powinny przyjmować w swoim ciele odpowiednią wartość
+pola oraz instancję klasy implementującej interfejs Validator
+* metody typu
+setter powinny wywoływać metodę validate na podstawie instancji
+przekazanego obiektu. Parametrem przekazywanym do metody validate
+powinna być wartość pierwszego argumentu
+
+Klasy anoniowe
+Mechanizmy walidujące klasy Validator powinny zostać zaimplementowane w
+postaci klas anonimowych. Ponadto poszczególne klasy anonimowe powinny
+werykować poniższe zasady:
+walidacja imienia: imię nie może być puste ani być nullem, powinno
+zaczynać się od wielkiej litery
+walidacja nazwiska: nazwisko nie może być puste ani być nullem, powinno
+zaczynać się od wielkiej litery
+walidacja wieku: wartość powinna mieścić się w przedziale o 0 do 150
+login: wartość pola powinna składać się z 10 znaków
+hasło: powinno zawierać znak !
+Zaprezentuj zaimplementowane powyżej rozwiązanie na przykładzie

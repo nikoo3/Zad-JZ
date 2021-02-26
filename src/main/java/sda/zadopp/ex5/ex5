@@ -1,0 +1,20 @@
+Rozwiązanie znajduje sie w zadaniu 1
+
+
+Zadanie 5
+Zaimplementuj klasę Line , która będzie zawierać (na zasadzie kompozycji)
+instancję dwóch obiektów Point2D z zadania nr 1. Punkty te będą punktem
+początkowym oraz końcowym odcinka. Ponadto klasa ta powinna
+implementować:
+konstruktor przyjmujący dwa punkty: początkowy i końcowy
+konstruktor przyjmujący 4 parametry: współrzędne punktu początkowego
+oraz końcowego
+metody typu getter odpowiedzialne za zwracanie punktów: początkowego
+i końcowego
+metody typu setter odpowiedzialne za ustalanie punktów: początkowego i
+końcowego
+metodę odpowiedzialną za obliczanie długości linii na podstawie
+ustawionych punktów
+metodę odpowiedzialną za zwracanie współrzędnych punktu będącego
+środkiem stworzonej prostej
+Zaprezentuj zaimplementowane powyżej rozwiązanie na przykładzie.

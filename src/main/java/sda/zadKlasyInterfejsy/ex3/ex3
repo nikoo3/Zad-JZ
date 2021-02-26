@@ -1,0 +1,12 @@
+Zadanie 3
+Klasa Car
+Zaimplementuj klasę Car , która będzie przechowywać informacje o nazwie i
+typie samochodu. Klasa ta powinna zwierać metody typu getter i setter .
+Klasa Engine
+Zaimplementuj klasę Engine , która będzie zagnieżdzoną klasą niestatyczną w
+ramach klasy Car . Klasa ta powinna zawierać pole: typ silnika oraz metodę
+setEngine , która ustawi odpowiedni typ na podstawie typu samochodu. Jeśli
+typ samochodu będzie równy economy , to typ silnika powinien zostać ustawiony
+na diesel . Jeśli typ samochodu bedzie równy luxury , to typ silnika powinien
+zostać zdeniowany jako electric . W innym przypadku typ silnika powinien
+być równy petrol .

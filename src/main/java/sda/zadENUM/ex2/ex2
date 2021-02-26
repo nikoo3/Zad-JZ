@@ -1,0 +1,9 @@
+Zadanie 2
+Stwórz klasę enum PackageSize ze stałymi SMALL , MEDIUM , LARGE . Enum
+powinien przyjmować w konstruktorze dwa parametry:
+minimalny rozmiar paczki w cm
+maksymalny rozmiar paczki w cm
+Dodatkowo enum PackageSize powinien zawierać metodę statyczną
+getPackageSize , która przyjmuje na wejściu minimalny i maksymalny rozmiar
+paczki, a jako rezultat powinna zwracać konkretny obiekt PackageSize na
+podstawie przekazanego rozmiaru paczki.

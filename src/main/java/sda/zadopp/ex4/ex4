@@ -1,0 +1,11 @@
+Zadanie 4
+Zmodykuj implementację przygotowaną w ramach Zadania nr 2. W tym celu
+dokonaj następującej refaktoryzacji:
+zmodykuj klasę Shape tak by była to klasa abstrakcyjna
+pola klasy Shape powinny być oznaczone modykatorem dostępu typu
+protected
+klasa Shape powinna zawierać metody abstrakcyjne getArea i
+getPerimeter
+Wszystkie klasy dziedziczące bezpośrednio lub pośrednio po klasie Shape
+powinny nadpisywać metody abstrakcyjne z klasy nadrzędnej.
+Zaprezentuj zaimplementowane powyżej rozwiązanie na przykładzie.

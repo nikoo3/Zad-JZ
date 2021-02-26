@@ -1,0 +1,22 @@
+Zadanie 7
+
+Zaimplementuj interfejs GeometricObject , który będzie zawierać denicję
+wspólnych zachowań dla klas pochodnych:
+double getPerimeter()
+double getArea()
+
+
+Klasa Circle:
+Klasa Circle powinna implementować interfejs GeometricObject , a ponadto
+zawierać pole: promień. Metody interfejsu GeometricObject powinny zostać
+zaimplementowane zgodnie z denicjami metematycznymi.
+Interfejs Resizable
+Interfejs Resizable powinien deklarować metodę resize(int percent) , która
+ma być odpowiedzialna za przeskalowanie obiektów implementujących
+tworzony interfejs.
+
+
+Klasa ResizableCircle:
+Klasa ResizableCircle powinna implementować interfejs Resizable . Metoda
+resize interfejsu powinna zmniejszać procentowo promień koła.
+Zaprezentuj zaimplementowane powyżej rozwiązanie na przykładzie.
